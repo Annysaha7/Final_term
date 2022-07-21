@@ -30,7 +30,7 @@ else
 	if($result)
 	  echo "data inserted";
     else
-		echo "data not inserted";	
+		echo "data not inserted"."<br>";	
 }
 //Update data
 $sql = "UPDATE Student SET Email='Moon@gmail.com' WHERE id=2007";
